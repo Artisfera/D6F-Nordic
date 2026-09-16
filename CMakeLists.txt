@@ -3,7 +3,8 @@ find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 
 project(D6F-Read)
 
-target_sources(app PRIVATE 
+target_sources(app PRIVATE
     src/main.c
-    src/pwm.c
+    src/adcin.c
+    src/pwmout.c
 )
