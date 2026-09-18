@@ -2,6 +2,6 @@
 #define ADC_H_
 
 int adc_init(void);
-int adc_loop(void);
+int adc_read_flowrate(int *ml_min);
 
 #endif
